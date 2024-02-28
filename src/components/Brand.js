@@ -1,8 +1,11 @@
-import brand from "../image/img-paginaweb-logo.png"
+import logo from "../image/img-paginaweb-logo.png";
+import { Link } from "react-router-dom"
 
 const Brand = () => {
     return(
-        <img src={brand} alt="ZenPalate" title="Zen Palate"></img>
+        <Link to="/">
+            <img src={logo} alt="ZenPalate" title="ZenPalate"></img>
+        </Link>
     )
 }
 
